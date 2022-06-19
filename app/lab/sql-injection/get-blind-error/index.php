@@ -51,6 +51,7 @@ if (isset($_GET['img'])) {
 </head>
 
 <body>
+    <?php require("../../../honeyheader.php"); ?>
     <div class="container">
         <div class="main">
             <div class="upper justify-content-center" style="text-align: center;margin: 2vh 0vh 6vh 0vh;">

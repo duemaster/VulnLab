@@ -20,11 +20,7 @@
 <body>
   <main class="main" id="top">
 
-    <nav class="navbar bg-danger">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Honeypot Environment</span>
-      </div>
-    </nav>
+  <?php require("honeyheader.php"); ?>
 
     <!-- NAV START -->
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900">

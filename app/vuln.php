@@ -33,6 +33,9 @@ $resources = getRes($vulnID);
 
 <body>
   <main class="main" id="top">
+
+  <?php require("honeyheader.php"); ?>
+
     <!-- NAV START -->
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900">
       <div class="container"><a class="navbar-brand" href="/index.php"> <img

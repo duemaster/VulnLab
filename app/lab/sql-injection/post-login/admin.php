@@ -28,6 +28,7 @@ if (!isset($_SESSION['username'])) {
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
+    <?php require("../../../honeyheader.php"); ?>
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-10 mt-5 pt-5">

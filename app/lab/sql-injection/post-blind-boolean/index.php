@@ -38,7 +38,7 @@ if (isset($_POST['search'])) {
 </head>
 
 <body>
-
+    <?php require("../../../honeyheader.php"); ?>
     <div class="container d-flex justify-content-center flex-column">
         <div class="header-wrapper d-flex justify-content-center" style="margin-top: 20vh;">
             <h1><?php echo $strings['header'] ?></h1>
